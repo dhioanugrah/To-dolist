@@ -13,13 +13,13 @@
                         <h2>menyapu</h2>
                         <div class="col-md-9 text-end">
                             <div class="btn-group" role="group" aria-label="Basic Example">
-                                <button class="btn btn-success btn-sm " type="button">
-                                    <i class="fas fa-check-circle "></i>
+                                <button class="btn btn-dark btn-sm btn-hover-success" type="button">
+                                    <i class="fas fa-check-circle"></i>
                                 </button>
                                 <div class="d-flex justify-content-end">
-                                    <a href="{{ url('tododetail') }}" class="btn btn-outline-secondary btn-info text-light" type="submit"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="{{ url('tododetail') }}" class="btn btn-dark btn-sm ms-1" type="submit"><i class="fa fa-eye" aria-hidden="true"></i></a>
                                 </div>
-                                <button class="btn btn-danger btn-sm" type="button"><i class="fas fa-trash-alt   "></i></button>
+                                <button class="btn btn-dark btn-sm ms-1" type="button"><i class="fas fa-trash-alt"></i></button>
                             </div>
                         </div>
                     </div>
