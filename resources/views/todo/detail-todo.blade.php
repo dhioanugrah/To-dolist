@@ -19,22 +19,23 @@
     </style>
 </head>
 <body class="bg-dark">
-    <form class="mx-lg-5">
-        <legend class="text-light">Tambah Tugas</legend>
-        <div class="mb-3">
-            <label for="judul" class="form-label text-light">Judul</label>
-            <input type="text" class="form-control" id="judul">
-        </div>
-        <div class="mb-3">
-            <label for="deskripsi" class="form-label text-light">Deskripsi</label>
-            <textarea class="form-control" id="deskripsi" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-        <a href="{{ url('todolist') }}" class="btn btn-outline-secondary btn-dark text-light" type="submit">Kembali</a>
-    </form>
-    
-    
+    <div class="col-md-5 ms-5">
+        <form class="mx-lg-auto">
+            <legend class="text-light">Tambah Tugas</legend>
+            <div class="mb-3">
+                <label for="judul" class="form-label text-light">Judul</label>
+                <input type="text" class="form-control" id="judul">
+            </div>
+            <div class="mb-3">
+                <label for="deskripsi" class="form-label text-light">Deskripsi</label>
+                <textarea class="form-control" id="deskripsi" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-light text-light">Submit</button>
+            <a href="{{ url('todolist') }}" class="btn btn-outline-secondary btn-dark text-light" type="submit">Kembali</a>
 
+        </form>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

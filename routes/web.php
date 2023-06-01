@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/todolist', [TodoController::class, 'index'])->name('todo.index');
-Route::get('/todomodal', [TodoController::class, 'modal'])->name('todo.modal');
+Route::get('/tododetail', [TodoController::class, 'detail'])->name('todo.detail-todo');

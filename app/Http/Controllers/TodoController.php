@@ -15,8 +15,8 @@ class TodoController extends Controller
     );
     }
 
-    public function modal(){
-        return view('todo.modal');
+    public function detail(){
+        return view('todo.detail-todo');
     }
     
 }
